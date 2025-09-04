@@ -27,7 +27,7 @@ json-server db.json --port 3000
 ```
 This will serve the API at http://localhost:3000
 
-### 3. Start JSON Server
+### 3. Start Application
 
 ```bash
 npm run dev
