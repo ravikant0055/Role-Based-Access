@@ -1,0 +1,88 @@
+{
+    "users":[
+        {
+            "id":1,
+            "username":"admin",
+            "password":"12345",
+            "role":"admin",
+            "permissions":[
+                "view_dashboard",
+                "view_products",
+                "edit_products",
+                "delete_products"
+            ]
+        },
+        {
+            "id":2,
+            "username":"manager",
+            "password":"12345",
+            "role":"manager",
+            "permissions":[
+                "view_dashboard",
+                "view_products",
+                "edit_products"
+            ]
+        },
+        {
+            "id":3,
+            "username":"user",
+            "password":"12345",
+            "role":"user",
+            "permissions":[
+                "view_dashboard",
+                "view_products"
+            ]
+        }
+    ],
+    
+    "products": [
+    {
+      "id": 1,
+      "name": "Motorola Moto G Unlocked",
+      "price": 100,
+      "image": "https://shorturl.at/CwXZa"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy",
+      "price": 200,
+      "image": "https://shorturl.at/kv9P6"
+    },
+    {
+      "id": 3,
+      "name": "Apple iPhone",
+      "price": 300,
+      "image": "https://shorturl.at/6ev3z"
+    },
+    {
+      "id": 4,
+      "name": "OnePlus",
+      "price": 250,
+      "image": "https://shorturl.at/X6xqp"
+    },
+    {
+      "id": 5,
+      "name": "Xiaomi",
+      "price": 150,
+      "image": "https://shorturl.at/NaeOw"
+    },
+    {
+      "id": 6,
+      "name": "Nokia",
+      "price": 120,
+      "image": "https://tinyurl.com/bdfvtkzd"
+    },
+    {
+      "id": 7,
+      "name": "Realme",
+      "price": 180,
+      "image": "https://tinyurl.com/cdm6632b"
+    },
+    {
+      "id": 8,
+      "name": "Google Pixel",
+      "price": 350,
+     "image": "https://shorturl.at/CwXZa"
+    }
+  ]
+}
